@@ -7,44 +7,31 @@
     <title>Krwiodawstwo Logowanie</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <style>
-        body{background:#AAACA1}
-
-        .lightgray{
-          background-color: #AAACA1;
-        }
-        .darkgray{
-          background-color: #7C8685;
-        }
-        .darkfont {
-          color: #7C8685;
-        }
-        .redfont {
-          color: #E3311D;
-        }
-        .borderdark{
-          border-color: #7C8685;
-        }
-        .mt-150{
-          margin-top: 150px;
-        }
-    </style>
+    <link rel="stylesheet" href="colors-tiles.css">
+    <script src="jquery-3.6.0.min.js"></script>
 </head>
-<body>
-        <h1 style="background-color: #7C8685; color:#AAACA1; border-radius: 10px;"" class="darkfont text-center mt-150 w-25 mx-auto p-3">Aplikacja <p class="redfont">Krwiodwastwa</p></h1>
 
-        <div class="w-25 mx-auto p-5 darkgray" style="border-radius: 10px;">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control borderred" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+<body>
+        
+        <h1 class="tile lightFont text-center mt-150 w-40 mx-auto p-3">Krwiodawstwo</h1>
+
+        <div class="w-40 mx-auto p-5 tile">
+          <div class="form-floating mb-3 w-80 mx-auto">
+            <input type="email" class="form-control borderred" id="floatingInput" placeholder="email">
+            <label for="floatingInput">E-mail</label>
           </div>
-          <div class="form-floating">
-            <input type="password" class="form-control borderred" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
+
+          <div class="form-floating w-80 mx-auto">
+            <input type="password" class="form-control borderred" id="floatingPassword" placeholder="Hasło">
+            <label for="floatingPassword">Hasło</label>
           </div>
-          <button type="button" class="btn btn-success mt-3 w-50">Login</button>
-          <button type="button" class="btn btn-danger mt-3 ml-5" style="width: 48%;">Another Button</button>
+
+          <div class="d-flex justify-content-center mt-4">
+            <button type="button" class="btn btn-lg btn-danger w-40 me-1">Zaloguj się</button>
+            <button type="button" class="btn btn-lg btn-light w-40 ms-1">Zapomniałem hasła</button>
+          </div>
         </div>
+        
 
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

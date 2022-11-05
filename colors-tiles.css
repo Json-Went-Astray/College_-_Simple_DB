@@ -1,0 +1,110 @@
+body{background:#E3E8EB; margin: 0; padding: 0}
+
+.backColor{
+  background-color: #E3E8EB;
+}
+
+.tile {
+  background-color: #B7C1C3;
+  border-radius: 10px;
+  border: solid 1px #7C8685;
+  margin: 10px;
+}
+
+.darkFont {
+  color: #161616;
+}
+
+.lightFont {
+  color: #494949;
+}
+
+.redFont {
+  color: #E3311D;
+}
+
+.border {
+  border-color: #7C8685;
+}
+
+.mt-150{
+  margin-top: 150px;
+}
+
+.w-40 {
+  min-width: 40%;
+  max-width: 40%;
+}
+
+.w-30 {
+  min-width: 30%;
+  max-width: 30%;
+}
+
+.w-80 {
+  min-width: 80%;
+  max-width: 80%;
+}
+
+.w-70 {
+  min-width: 70%;
+  max-width: 70%;
+}
+
+.btn-light {
+  border: solid 1px #dc3545;
+  background-color: #f8f9fa;
+}
+
+.btn-light:hover {
+  border: solid 1px #bb2d3b;
+}
+
+.btn-danger {
+  border: solid 1px #f8f9fa;
+}
+
+.btn-danger:hover {
+  border: solid 1px #d3d4d5;
+}
+
+a:hover {
+  color: #bb2d3b;
+}
+
+img {
+  color: #bb2d3b;
+}
+
+tr>td:nth-child(7) {
+  max-width: 10%;
+  min-width: 10%;
+  width: 10%;
+}
+
+.modalSpacingAdmin>tbody>tr>td {
+  min-width: 140px;
+  max-width: 200px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #dc3545;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #dc3545;
+  outline: 0 none;
+  border-radius: 10px;
+}
