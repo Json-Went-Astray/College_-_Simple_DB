@@ -18,6 +18,9 @@ body{background:#E3E8EB; margin: 0; padding: 0}
 .lightFont {
   color: #494949;
 }
+.lightFont {
+    color: #494949;
+  }
 
 .redFont {
   color: #E3311D;
@@ -87,6 +90,13 @@ tr>td:nth-child(7) {
   max-width: 200px;
 }
 
+.progress{
+    height: 30px;
+    position: relative;
+    border-radius: 10px;
+    border: solid 1px #7C8685;
+}
+
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -107,4 +117,23 @@ input[type="color"]:focus,
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #dc3545;
   outline: 0 none;
   border-radius: 10px;
+}
+/*
+
+
+
+
+
+*/
+#progressBar {
+    width: 75%;
+}
+
+#progressBarValue{
+    font-weight: bold;
+    font-size: 14pt;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
